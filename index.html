@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Design</title>
+		<style type="text/css">
+			
+			.wrapper {
+				width: 940px;
+				height: 972px;
+				margin: 20px auto 20px auto;
+				background-color:#ffffff;
+			}
+			body{
+				background-color: #f7fafb;
+			}
+			header{
+				width: 940px;
+				height: 97px;
+				background-color: #aeaca8;
+				border-top-left-radius: 13px;
+				border-top-right-radius: 13px;
+
+			}
+			.logo {
+				float: left;
+				width: 155px;
+			}
+
+			.nav {
+				float: left;
+				width: 780px;
+				padding: 21px 0px 0px 5px;
+			}
+
+			.logo img{
+				float: left;
+				width: 140px;
+				padding: 5px;
+			}
+			header nav {
+				float: left;
+				color: #ffffff;
+				height: 40px;
+				width: 100%;
+			}
+
+			nav ul {
+				margin: 0px;
+				padding: 10px 0px 5px 30px;
+			}
+
+			nav li {
+				display: inline;
+				margin-right: 40px;
+			}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current{
+				color: #000000;
+			}
+
+			.banner img {
+				float: left;
+				width: 100%;
+				height: 253px;
+				
+			}
+
+			a {
+				color: #de6581;
+				text-decoration: none;
+			}
+
+			article {
+				clear: both;
+				width: 100%;
+				padding: 5px 0px 0px 0px;
+			}
+
+			section.courses {
+				float: left;
+				width: 640px;
+				margin-left: 10px;
+			}
+
+			aside {
+				float: left;
+				width: 270px;
+				padding: 20px 0px 0px 20px;
+			}
+
+			.form-group{
+				width: 100%;
+			}
+			
+			input{
+				width: 200px;
+			    padding: 15px;
+			    margin: 10px 0;
+			    color: #888;
+			}
+
+			button{
+			    width: 100%;
+			    padding: 15px;
+			    margin: 10px 0;
+			    color: #888;
+			    background-color:#00cdb1 ;
+			    border: none;
+			    color:#eee;
+			}
+
+			button:hover{
+			    background-color: #00adb1;
+			}
+
+			footer {
+				float: left;
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 40px;
+				width: 100%;
+				text-align: center;
+				padding: 20px 0px 0px 0px;
+				margin-top: 20px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+
+			}
+
+			.search{
+			
+			height: 70px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--Wrapper-->
+		<div class="wrapper">
+			<!-- Header-->
+			<header>
+				<!-- LOGO -->
+				<div class="logo">
+						<img src="images/logo.png" alt="logo">
+				</div>
+				<!-- END LOGO -->	
+				<div class="nav">
+					<!-- NAV BAR -->
+					<nav>
+						<ul>
+							<li><a href="" class="current">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Berita</a></li>
+							<li><a href="">Kontak</a></li>
+						</ul>
+					</nav>
+					<!-- END NAV BAR -->
+				</div>
+			</header>
+			<!-- End Header-->
+
+			<!--Section Banner -->
+			<section class="banner">
+				<img src="images/banner3.png" alt="banner">
+			</section>
+			<!-- End Section Banner -->
+
+			<!-- Content -->
+			<div class="content">
+				<section class="courses">
+					<!-- Articles -->
+					<article>
+						<div class="article">		
+							<h2><a href="">Web Design</a></h2>
+							<p>
+							Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing mark up. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating mark up then they are also expected to be up to date with web accessibility guidelines.
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="article">		
+							<h2><a href="">The Inspiration Behind Brutalism in Web Design</a></h2>
+							<p>
+							Brutalism in web design, in its most basic form, incorporates stark colors, bold and unforgiving shapes and layouts, and typography that is often clumsy and oversized. By now, we have all experienced some form of the brutalism web design trend that has gained traction over the past year or so. Even Bloomberg has adopted the style in its own way.
+
+							But where does this design style come from? The inspiration for such comes from a number of aspects, not least architecture. This architectural trend was prominent during the mid-1900s and utilized concrete to produce often harsh and imposing structures.
+
+							In this article, we are going to look at aspects of the brutalism trend in architecture that have inspired the web design trend that has achieved prominence today.
+
+							</p>
+						</div>
+					</article>
+					<!-- End Articles -->
+				</section>
+
+				<!-- Sidebar-->
+				<aside>
+					<div class="search">
+						<input type="" name="search" placeholder="search">
+					</div>
+
+					<fieldset>
+						<legend>Form Login</legend>
+						<form method="POST" action="#">
+							<div class="form-group">
+								<label>Username</label>
+								<input type="text" name="username" placeholder="Username .."></input>
+							</div>
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" name="password" placeholder="Password .."></input>
+							</div>
+							<div class="form-group">
+								<button class="btn-login">LOGIN</button>
+							</div>
+
+							<p>Don't have an account? <a href="#">Sign Up</a></p> 
+
+						</form>
+					</fieldset>
+				</aside>
+				<!-- END Sidebar-->
+
+			</div>
+			<!-- End Content -->
+
+			<!-- Footer -->
+			<footer>
+				Copyright &copy; Wendi Siswanto
+			</footer>
+			<!-- End Footer -->
+
+		</div>
+		<!-- End Wrapper-->
+	</body>
+</html>
